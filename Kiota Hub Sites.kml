@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Kiota Hub Sites </name>
+		<Placemark>
+			<name>Musan Plaza</name>
+			<description><![CDATA[Latitude: 0.356372<br>Longitude: 32.61374]]></description>
+			<styleUrl>#icon-960-009D57</styleUrl>
+			<ExtendedData>
+				<Data name='Latitude'>
+					<value>0.356372</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>32.61374</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>32.61374,0.356372,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bugolobi Flats Block 9</name>
+			<description><![CDATA[Latitude: 0.312018<br>Longitude: 32.626135]]></description>
+			<styleUrl>#icon-960-009D57</styleUrl>
+			<ExtendedData>
+				<Data name='Latitude'>
+					<value>0.312018</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>32.626135</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>32.626135,0.312018,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Luyanzi College</name>
+			<description><![CDATA[Latitude: 0.36779<br>Longitude: 32.67174]]></description>
+			<styleUrl>#icon-960-009D57</styleUrl>
+			<ExtendedData>
+				<Data name='Latitude'>
+					<value>0.36779</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>32.67174</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>32.67174,0.36779,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Frama Hostel</name>
+			<description><![CDATA[Latitude: 0.33619<br>Longitude: 32.56356]]></description>
+			<styleUrl>#icon-960-009D57</styleUrl>
+			<ExtendedData>
+				<Data name='Latitude'>
+					<value>0.33619</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>32.56356</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>32.56356,0.33619,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nkwanzi Courts</name>
+			<description><![CDATA[Latitude: 0.33689<br>Longitude: 32.58633]]></description>
+			<styleUrl>#icon-960-009D57</styleUrl>
+			<ExtendedData>
+				<Data name='Latitude'>
+					<value>0.33689</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>32.58633</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>32.58633,0.33689,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Legends Club</name>
+			<description><![CDATA[Latitude: 0.3291<br>Longitude: 32.60541]]></description>
+			<styleUrl>#icon-960-009D57</styleUrl>
+			<ExtendedData>
+				<Data name='Latitude'>
+					<value>0.3291</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>32.60541</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>32.60541,0.3291,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Total Kibuli</name>
+			<description><![CDATA[Latitude: 0.30669<br>Longitude: 32.60064]]></description>
+			<styleUrl>#icon-960-009D57</styleUrl>
+			<ExtendedData>
+				<Data name='Latitude'>
+					<value>0.30669</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>32.60064</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>32.60064,0.30669,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Total Kibuye</name>
+			<description><![CDATA[Latitude: 0.29108<br>Longitude: 32.57164]]></description>
+			<styleUrl>#icon-960-009D57</styleUrl>
+			<ExtendedData>
+				<Data name='Latitude'>
+					<value>0.29108</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>32.57164</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>32.57164000000001,0.29108,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Total Nakivubo</name>
+			<description><![CDATA[Latitude: 0.31258<br>Longitude: 32.5747]]></description>
+			<styleUrl>#icon-960-009D57</styleUrl>
+			<ExtendedData>
+				<Data name='Latitude'>
+					<value>0.31258</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>32.5747</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>32.5747,0.31258,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Musana House</name>
+			<description><![CDATA[Latitude: 0.31162<br>Longitude: 32.58469]]></description>
+			<styleUrl>#icon-960-009D57</styleUrl>
+			<ExtendedData>
+				<Data name='Latitude'>
+					<value>0.31162</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>32.58469</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>32.58469,0.31162,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Uganda Broadcasting Cooperation(UBC)</name>
+			<description><![CDATA[Latitude: 0.3171<br>Longitude: 32.58898]]></description>
+			<styleUrl>#icon-960-009D57</styleUrl>
+			<ExtendedData>
+				<Data name='Latitude'>
+					<value>0.3171</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>32.58898</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>32.58898,0.3171,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Boulevard</name>
+			<description><![CDATA[Latitude: 0.3131<br>Longitude: 32.58079]]></description>
+			<styleUrl>#icon-960-009D57</styleUrl>
+			<ExtendedData>
+				<Data name='Latitude'>
+					<value>0.3131</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>32.58079</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>32.58079,0.3131,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ndejje University</name>
+			<description><![CDATA[Latitude: 0.31488<br>Longitude: 32.55736]]></description>
+			<styleUrl>#icon-960-009D57</styleUrl>
+			<ExtendedData>
+				<Data name='Latitude'>
+					<value>0.31488</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>32.55736</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>32.55736,0.31488,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kyambogo University</name>
+			<description><![CDATA[Latitude: 0.34772<br>Longitude: 32.63141]]></description>
+			<styleUrl>#icon-960-009D57</styleUrl>
+			<ExtendedData>
+				<Data name='Latitude'>
+					<value>0.34772</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>32.63141</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>32.63141,0.34772,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-960-009D57'>
+			<IconStyle>
+				<color>ff579D00</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+	</Document>
+</kml>
