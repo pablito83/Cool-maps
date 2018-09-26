@@ -302,7 +302,7 @@
       </Polygon>
     </Placemark>
     <Placemark>
-      <name>Makindye Zone</name>
+      <name><a href="https://www.w3schools.com" target="_blank">Visit W3Schools!</a></name>
       <styleUrl>#poly-CE93D8-2000-77-nodesc</styleUrl>
       <Polygon>
         <outerBoundaryIs>
