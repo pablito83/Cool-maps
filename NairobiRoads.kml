@@ -1,0 +1,935 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Nairobi Roads</name>
+		<Style id='Style2-point-1'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-point-1-hover'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-point-1-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-point-1</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-point-1-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-line-2'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-line-2-hover'>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-line-2-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-line-2</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-line-2-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-polygon-3'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-3-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-3-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-3</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-3-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>University way</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> Joins  uhuru highway and Moi avenue<br>
+<b>name:</b> University way
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.815202,-1.28164,0.0 36.815894,-1.281302,0.0 36.816704,-1.280932,0.0 36.817417,-1.2806,0.0 36.817755,-1.280412,0.0 36.817943,-1.280278,0.0 36.818147,-1.280171,0.0 36.818377,-1.280069,0.0 36.818544,-1.280026,0.0 36.818769,-1.279972,0.0 36.81901,-1.280015,0.0 36.81923,-1.280096,0.0 36.819418,-1.280192,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Moi Avenue</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> Joins university way and haile selassie roads<br>
+<b>name:</b> Moi Avenue
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.819423,-1.280198,0.0 36.819847,-1.280439,0.0 36.820561,-1.280991,0.0 36.821312,-1.281576,0.0 36.822036,-1.282155,0.0 36.823366,-1.283217,0.0 36.824273,-1.283941,0.0 36.82475,-1.284327,0.0 36.82511,-1.284579,0.0 36.825346,-1.284831,0.0 36.825678,-1.285368,0.0 36.826086,-1.286177,0.0 36.826896,-1.287856,0.0 36.827422,-1.288972,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Haile selassie road</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> joins Moi avenue and Uhuru Highway<br>
+<b>name:</b> Haile selassie road
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.82729,-1.28932,0.0 36.823935,-1.29102,0.0 36.820614,-1.29272,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Uhuru Highway</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> Forms part of Nairobi-Mombasa highway<br>
+<b>name:</b> Uhuru Highway
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.82028,-1.29254,0.0 36.817396,-1.286757,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Uhuru Highway</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Uhuru Highway
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.817224,-1.286295,0.0 36.816655,-1.2851,0.0 36.815937,-1.283646,0.0 36.815448,-1.282638,0.0 36.815094,-1.281919,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Koinange Street</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> Joins University way and Kenyatta university<br>
+<b>name:</b> Koinange Street
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.817165,-1.28075,0.0 36.818581,-1.283544,0.0 36.819536,-1.285453,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Loita street</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> Joins Monrovia Street and Kenyatta<br>
+<b>name:</b> Loita street
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.81872,-1.28587,0.0 36.8168,-1.28206,0.0 36.816838,-1.281828,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Banda street</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> Joins Koinange street and Kimathi street<br>
+<b>name:</b> Banda street
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.822095,-1.283287,0.0 36.820185,-1.284241,0.0 36.818383,-1.285191,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Moktar daddar street</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> Joins koinange street and Moi avenue<br>
+<b>name:</b> Moktar daddar street
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.817288,-1.28296,0.0 36.820802,-1.281201,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Kenyatta Avenue</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> Joins Uhuru highway and Moi avenue<br>
+<b>name:</b> Kenyatta Avenue
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.817541,-1.28644,0.0 36.8228,-1.28381,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Kigali Street</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> Joins Muindi mbingu and Kimathi street<br>
+<b>name:</b> Kigali Street
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.819831,-1.283362,0.0 36.821317,-1.282627,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Biashra street</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> Joins Koinange street and Moi avenue<br>
+<b>name:</b> Biashra street
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.818415,-1.283233,0.0 36.821462,-1.28171,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Kenyatta Avenue</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Kenyatta Avenue
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.822792,-1.283823,0.0 36.823602,-1.283383,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Line 21</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Line 21
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.82124,-1.28374,0.0 36.82158,-1.2844,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Wabera street</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> Joins kenyatta avenue and City hall way<br>
+<b>name:</b> Wabera street
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.82159,-1.28442,0.0 36.82268,-1.286639,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>City hall way</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> Joins Uhuru highway and moi avenue<br>
+<b>name:</b> City hall way
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.818452,-1.288773,0.0 36.819955,-1.288055,0.0 36.822701,-1.286655,0.0 36.825544,-1.285217,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Simba street</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Simba street
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.82414,-1.2859,0.0 36.82385,-1.28529,0.0 36.823844,-1.285293,0.0 36.823854,-1.285298,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Mama Ngina street</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Mama Ngina street
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.825158,-1.284628,0.0 36.82132,-1.28646,0.0 36.82057,-1.28493,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Parliament Road</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Parliament Road
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.821923,-1.292061,0.0 36.81994,-1.28806,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Kaunda street</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Kaunda street
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.81993,-1.28804,0.0 36.81949,-1.28722,0.0 36.81951,-1.28697,0.0 36.81959,-1.28686,0.0 36.82003,-1.28661,0.0 36.821172,-1.286124,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>kimathi street</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> kimathi street
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.81952,-1.28544,0.0 36.82011,-1.286558,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Posta street</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Posta street
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.818243,-1.28614,0.0 36.818833,-1.287282,0.0 36.819284,-1.287057,0.0 36.819348,-1.287057,0.0 36.819413,-1.287073,0.0 36.819461,-1.287095,0.0 36.819477,-1.287127,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Line 23</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Line 23
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.819917,-1.286124,0.0 36.82092,-1.285636,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Standard street</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Standard street
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.820904,-1.285566,0.0 36.823425,-1.284354,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Nkuruma lane</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Nkuruma lane
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.826156,-1.288022,0.0 36.825378,-1.286446,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.826778,-1.287695,0.0 36.826574,-1.287556,0.0 36.826445,-1.287427,0.0 36.825668,-1.285909,0.0 36.825705,-1.28548,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.825802,-1.286215,0.0 36.825083,-1.286612,0.0 36.825019,-1.286451,0.0 36.825732,-1.286022,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Tumbo lane</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Tumbo lane
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.824691,-1.290629,0.0 36.823892,-1.289175,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Railway roundabout</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Railway roundabout
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.827298,-1.289304,0.0 36.827272,-1.289224,0.0 36.827288,-1.289143,0.0 36.827336,-1.289084,0.0 36.827384,-1.289031,0.0 36.827443,-1.289004,0.0 36.827518,-1.289004,0.0 36.82762,-1.289031,0.0 36.827685,-1.289074,0.0 36.827722,-1.289154,0.0 36.827728,-1.289218,0.0 36.827728,-1.289293,0.0 36.827679,-1.289352,0.0 36.827615,-1.289395,0.0 36.827486,-1.289406,0.0 36.8274,-1.289401,0.0 36.827298,-1.289304,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Haile-Selasie avenue-uhuru highway round about</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Haile-Selasie avenue-uhuru highway round about
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.82031,-1.29255,0.0 36.82049,-1.29253,0.0 36.82056,-1.29262,0.0 36.82062,-1.292774,0.0 36.820518,-1.292897,0.0 36.820443,-1.292913,0.0 36.820351,-1.292908,0.0 36.82025,-1.29284,0.0 36.82021,-1.29276,0.0 36.82024,-1.2926,0.0 36.82031,-1.29255,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Kenyatta avenue-Uhuru highway roundabout</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Kenyatta avenue-Uhuru highway roundabout
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.817229,-1.286322,0.0 36.817315,-1.286306,0.0 36.817406,-1.286312,0.0 36.817487,-1.286349,0.0 36.817546,-1.286424,0.0 36.817546,-1.286521,0.0 36.817524,-1.286612,0.0 36.81746,-1.286703,0.0 36.81739,-1.286767,0.0 36.817278,-1.286762,0.0 36.817176,-1.286698,0.0 36.817117,-1.286569,0.0 36.817106,-1.286462,0.0 36.817165,-1.286371,0.0 36.817229,-1.286322,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Luthuli road</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Luthuli road
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.826242,-1.284923,0.0 36.82895,-1.28357,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.827175,-1.285175,0.0 36.828141,-1.284687,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Sheik Karume</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Sheik Karume
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.828135,-1.284681,0.0 36.829562,-1.283952,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> 
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.827781,-1.284166,0.0 36.827905,-1.284381,0.0 36.827974,-1.284515,0.0 36.828103,-1.284638,0.0 36.828248,-1.284788,0.0 36.828436,-1.28496,0.0 36.828505,-1.285142,0.0 36.828602,-1.285298,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Accra Road</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Accra Road
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.826016,-1.284461,0.0 36.82733,-1.28248,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>River road</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> River road
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.822964,-1.28141,0.0 36.823533,-1.281335,0.0 36.824294,-1.28134,0.0 36.825367,-1.281383,0.0 36.825727,-1.281388,0.0 36.825914,-1.281517,0.0 36.827347,-1.282472,0.0 36.828972,-1.283566,0.0 36.829621,-1.283984,0.0 36.830506,-1.284579,0.0 36.831166,-1.285051,0.0 36.832116,-1.285722,0.0 36.831735,-1.286456,0.0 36.831397,-1.287025,0.0 36.831188,-1.287234,0.0 36.830249,-1.287717,0.0 36.82857,-1.288634,0.0 36.827722,-1.2891,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Mfangano street</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Mfangano street
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.828881,-1.288425,0.0 36.827551,-1.285813,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Uyuma road</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Uyuma road
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.828779,-1.285217,0.0 36.82925,-1.28622,0.0 36.8305,-1.2866,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Line 41</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Line 41
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.826896,-1.284622,0.0 36.827497,-1.285824,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Konja roudabout</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Konja roudabout
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.822385,-1.281426,0.0 36.822583,-1.281581,0.0 36.822647,-1.281651,0.0 36.822696,-1.281673,0.0 36.822712,-1.281678,0.0 36.822728,-1.281673,0.0 36.822717,-1.281699,0.0 36.822755,-1.281673,0.0 36.822765,-1.281683,0.0 36.822883,-1.281576,0.0 36.822964,-1.281474,0.0 36.822975,-1.281415,0.0 36.822953,-1.281324,0.0 36.822873,-1.281227,0.0 36.822733,-1.281109,0.0 36.822588,-1.28105,0.0 36.822422,-1.281013,0.0 36.822347,-1.281056,0.0 36.822277,-1.281136,0.0 36.822272,-1.281254,0.0 36.822315,-1.28134,0.0 36.822385,-1.281426,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Muranga road</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Muranga road
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.821521,-1.28171,0.0 36.822245,-1.281437,0.0 36.822277,-1.281383,0.0 36.822293,-1.281302,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Tom mboya street</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Tom mboya street
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.822717,-1.281699,0.0 36.825346,-1.283828,0.0 36.825823,-1.284199,0.0 36.825968,-1.284359,0.0 36.826054,-1.28452,0.0 36.826553,-1.285604,0.0 36.8271,-1.286741,0.0 36.828151,-1.288864,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Line 56</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Line 56
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.825576,-1.285159,0.0 36.825748,-1.285239,0.0 36.825866,-1.285416,0.0 36.826317,-1.286387,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Ronald ngala street</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Ronald ngala street
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.826327,-1.286392,0.0 36.830345,-1.284467,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Line 58</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Line 58
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.825898,-1.284306,0.0 36.825517,-1.284805,0.0 36.825684,-1.285153,0.0 36.825786,-1.285223,0.0 36.826333,-1.285169,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Latema road</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Latema road
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.824632,-1.283228,0.0 36.825893,-1.281506,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Lagos road</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Lagos road
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.823393,-1.282246,0.0 36.823661,-1.281989,0.0 36.825501,-1.282016,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Line 61</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Line 61
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.823313,-1.281378,0.0 36.823474,-1.281673,0.0 36.825732,-1.281683,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Line 62</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Line 62
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.825555,-1.281989,0.0 36.827014,-1.282949,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Line 63</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Line 63
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.825217,-1.282466,0.0 36.826692,-1.283432,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Line 64</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Line 64
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.824992,-1.282777,0.0 36.826403,-1.283877,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Line 65</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Line 65
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.826869,-1.28459,0.0 36.826826,-1.284461,0.0 36.827475,-1.283517,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Line 66</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Line 66
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.826977,-1.283051,0.0 36.827229,-1.283212,0.0 36.827379,-1.283351,0.0 36.827797,-1.28414,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Line 67</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Line 67
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.827626,-1.287754,0.0 36.828747,-1.287266,0.0 36.828752,-1.287207,0.0 36.829364,-1.286907,0.0 36.8296,-1.286338,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Line 68</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Line 68
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.830227,-1.287733,0.0 36.830984,-1.284912,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Line 69</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Line 69
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.821097,-1.285963,0.0 36.823806,-1.284649,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Harambe avenue</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> Joins Uhuru highway and Moi avenue<br>
+<b>name:</b> Harambe avenue
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.819681,-1.291294,0.0 36.821183,-1.290527,0.0 36.826794,-1.287668,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Line 71</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Line 71
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.821843,-1.291916,0.0 36.823844,-1.290908,0.0 36.823994,-1.290972,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Line 72</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Line 72
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.821682,-1.29028,0.0 36.822374,-1.291648,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Line 73</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Line 73
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.822583,-1.28983,0.0 36.823248,-1.291197,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Line 74</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Line 74
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.823044,-1.289604,0.0 36.823731,-1.290945,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Line 75</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Line 75
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.823624,-1.286183,0.0 36.824879,-1.288644,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Line 76</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Line 76
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.824611,-1.284837,0.0 36.824541,-1.284665,0.0 36.823238,-1.283592,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Line 77</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Line 77
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.823554,-1.283324,0.0 36.82401,-1.282761,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Line 78</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Line 78
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.824026,-1.283689,0.0 36.824461,-1.283142,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Market street</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> Joins Uhuru Highway and Muindi Mbingu Street<br>
+<b>name:</b> Market street
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.816773,-1.285341,0.0 36.818125,-1.284703,0.0 36.818109,-1.284649,0.0 36.819987,-1.28371,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Taifa road</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Taifa road
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.82364,-1.286188,0.0 36.824927,-1.288693,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Harambe avenue</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Harambe avenue
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.826805,-1.287733,0.0 36.819649,-1.291283,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Harambe lane</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Harambe lane
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.823002,-1.289631,0.0 36.823779,-1.291095,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Haile selassie</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Haile selassie
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.822551,-1.289862,0.0 36.823291,-1.291337,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>paliament lane</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> paliament lane
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.821703,-1.290296,0.0 36.822428,-1.291782,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Kaunda street</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Kaunda street
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.821102,-1.285984,0.0 36.82379,-1.284633,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Kimathi Street</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Kimathi Street
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.821108,-1.282429,0.0 36.824284,-1.28503,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Muindi Mbingu street</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Muindi Mbingu street
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.818243,-1.280149,0.0 36.820287,-1.284209,0.0 36.820244,-1.284477,0.0 36.820507,-1.284928,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Turban road</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Turban road
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.81864,-1.283582,0.0 36.821558,-1.282214,0.0 36.821768,-1.281935,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Kimathi lane</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Kimathi lane
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.821564,-1.28222,0.0 36.823221,-1.283582,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Monrovia street</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Monrovia street
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.819697,-1.280364,0.0 36.819584,-1.280514,0.0 36.816092,-1.282209,0.0 36.815829,-1.281715,0.0 36.815904,-1.281335,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Uhuru Highway-University way roundabout</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Uhuru Highway-University way roundabout
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.814783,-1.281565,0.0 36.81488,-1.281474,0.0 36.815009,-1.281442,0.0 36.815159,-1.281506,0.0 36.815186,-1.28156,0.0 36.815196,-1.281635,0.0 36.815196,-1.281774,0.0 36.815159,-1.281839,0.0 36.815121,-1.281887,0.0 36.814901,-1.281898,0.0 36.814815,-1.281844,0.0 36.814762,-1.281769,0.0 36.814756,-1.28164,0.0 36.814783,-1.281565,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>Parliament Buildings</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Parliament Buildings
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>36.81967,-1.289615,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Kenyatta international conference</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Kenyatta international conference
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>36.822728,-1.289004,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Hilton Hotel</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Hilton Hotel
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>36.824659,-1.285432,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>7 August memorial Park</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> 7 August memorial Park
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>36.826987,-1.289057,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Nation Center</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Nation Center
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>36.822428,-1.283222,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Kenya National archives</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Kenya National archives
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>36.825989,-1.28496,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Bus Station Nairobi</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Bus Station Nairobi
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>36.828854,-1.286687,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Grand Regency</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Grand Regency
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>36.816784,-1.284177,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Line 64</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Line 64
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.816816,-1.285303,0.0 36.820014,-1.283694,0.0</coordinates></LineString></Placemark>
+		<Placemark>
+			<name>City Hall</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> City Hall
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>36.821709,-1.286859,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Posta</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Posta
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>36.819391,-1.286537,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Kencom</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Kencom
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData/><Point><coordinates>36.825088,-1.286054,0.0</coordinates></Point></Placemark>
+		<Placemark>
+			<name>Race course road</name>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> Race course road
+</div>]]></description>
+			<styleUrl>#Style2-line-2-map</styleUrl>
+			<ExtendedData/><LineString><coordinates>36.831032,-1.284982,0.0 36.830099,-1.287749,0.0</coordinates></LineString></Placemark>
+	</Document>
+</kml>
